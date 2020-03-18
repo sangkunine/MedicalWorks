@@ -10,11 +10,11 @@
 
 The figures below show the rendered images after loading the sample models.
 <div style="text-align: center;">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/quadWorkspace.jpg" width="100%" height="200px" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/volumeRendering.jpg" width="45%" height="200px" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/slicesWorkspace.jpg" width="45%" height="200px" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/isosurface.jpg" width="45%" height="200px" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/sketch.jpg" width="45%" height="200px" style="margin: 1px">
+<img src="https://sangkunine.github.io/medicalWorks/images/samples/quadWorkspace.jpg" width="98%" style="margin: 1px">
+<img src="https://sangkunine.github.io/medicalWorks/images/samples/volumeRendering.jpg" width="50%" style="margin: 1px">
+<img src="https://sangkunine.github.io/medicalWorks/images/samples/slicesWorkspace.jpg" width="48%" style="margin: 1px">
+<img src="https://sangkunine.github.io/medicalWorks/images/samples/isosurface.jpg" width="50%" style="margin: 1px">
+<img src="https://sangkunine.github.io/medicalWorks/images/samples/sketch.jpg" width="49%" style="margin: 1px">
 </div>
 
 ## Supported file formats
@@ -46,8 +46,7 @@ You can run this application at the website: https://sangkunine.github.io/medica
 ## User interface
 
 - Keyboard<br>
-You can see any one of the slice images dynamically by pressing the key **arrow up** and **down** with your mouse cursor over the slice image area of interest.<br>
-Also you can measure a mean value, standard deviation, geometric area, etc. of the selected area by clicking two points while holding **ctrl** key. To delete the selected area, use the **delete** key with your mouse cursor over the selected area.
+You can see any one of the slice images dynamically by pressing the key **arrow up** and **down** with your mouse cursor over the slice image area of interest. Also you can measure a mean value, standard deviation, geometric area, etc. of the selected area by clicking two points while holding **ctrl** key. To delete the selected area, use the **delete** key with your mouse cursor over the selected area.
 
 - Mouse<br>
 The slice image of interest can be enlarged or reduced by double clicking the image.<br>
@@ -57,9 +56,7 @@ You can control a camera to take a closer look at the loaded models by:<br>
 	- scrolling mouse wheel for camera zooming (in/out).
 
 - Sidebar<br>
-There are tabs for each model representation (i.e., slicer, volume, isosurface), and additional sketch tabs.<br>
-In each model tab, you can change the properties of the model. For example, after hovering the mouse cursor over the attribute value you want to change, click and drag the mouse up / down (or right / left) to increase / decrease the corresponding value.<br>
-In addition, you can change properties using checkboxes, drop-down lists with options, etc.
+There are tabs for each model representation (e.g., slicer, volume, isosurface), and additional sketch tabs. In each model tab, you can change the properties of the model. For example, after hovering the mouse cursor over the property value you want to change, click and drag the mouse up / down (or right / left) to increase / decrease the corresponding value. In addition, you can change properties using the checkboxes or drop-down lists with options provided.
 
 ## Future works
 - Function to build various workspaces to improve user convenience
