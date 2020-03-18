@@ -12,11 +12,15 @@
         <div id="novaGraphix"></div>
         <script>
             var novaGraphix = document.getElementById( 'novaGraphix' );
-            var appWorks = JAMIE.createMedicalWorks({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
+
+            var appWorks = JAMIE.createMedicalWorks(
+                window.innerWidth - 300,
+                window.innerHeight
+            );
             novaGraphix.appendChild( appWorks.dom );
+
+            var appGUI = JAMIE.createMedicalGUI( appWorks );
+            novaGraphix.appendChild( appGUI.dom );
         </script>
     </body>
 </html>
