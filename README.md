@@ -1,9 +1,9 @@
 # MedicalWorks
 
-![](https://img.shields.io/badge/minzipped_size-2.9MB-blue)
+![](https://img.shields.io/badge/minzipped_size-3.1MB-blue)
 ![](https://img.shields.io/badge/node-v10.14.1-yellow)
 ![](https://img.shields.io/badge/npm-6.4.1-yellow)
-![](https://img.shields.io/badge/webpack-4.38.0-yellow)
+![](https://img.shields.io/badge/webpack-4.43.0-yellow)
 ![](https://img.shields.io/badge/three.js-r114-green)
 
 **MedicalWorks** is a 3D WebGL-based medical solution that will provide versatile tools that import various kinds of medical files, construct anatomical models from these files, design patient-specific guides, and export the 3D models for CAE analysis or 3D printing.
