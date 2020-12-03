@@ -12,18 +12,18 @@
         <script src="dist/medicalWorks.min.js"></script>
     </head>
     <body>
-        <div id="novaGraphix"></div>
+        <div id="app-container"></div>
         <script>
-            var novaGraphix = document.getElementById( 'novaGraphix' );
+            var appContainer = document.getElementById( 'app-container' );
 
             var appWorks = JAMIE.createMedicalWorks(
                 window.innerWidth - 300,
                 window.innerHeight
             );
-            novaGraphix.appendChild( appWorks.dom );
+            appContainer.appendChild( appWorks.dom );
 
             var appGUI = JAMIE.createMedicalGUI( appWorks );
-            novaGraphix.appendChild( appGUI.dom );
+            appContainer.appendChild( appGUI.dom );
         </script>
     </body>
 </html>
