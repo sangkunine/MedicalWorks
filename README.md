@@ -1,16 +1,18 @@
 # MedicalWorks
 
-![](https://img.shields.io/badge/minzipped_size-3.1MB-blue)
-![](https://img.shields.io/badge/node-v10.14.1-yellow)
-![](https://img.shields.io/badge/npm-6.4.1-yellow)
-![](https://img.shields.io/badge/webpack-4.43.0-yellow)
-![](https://img.shields.io/badge/three.js-r114-green)
+![](https://img.shields.io/badge/minzipped_size-3.0MB-blue)
+![](https://img.shields.io/badge/node-v14.15.1-yellow)
+![](https://img.shields.io/badge/npm-6.14.8-yellow)
+![](https://img.shields.io/badge/webpack-5.10.0-yellow)
+![](https://img.shields.io/badge/three.js-r128-green)
 
 **MedicalWorks** is a 3D WebGL-based medical solution that will provide versatile tools that import various kinds of medical files, construct anatomical models from these files, design patient-specific guides, and export the 3D models for CAE analysis or 3D printing.
 
 The figures below show the rendered images after loading the sample models.
 <div style="text-align: center;">
+<a href="https://www.youtube.com/watch?v=VMqlCWnPZVg" title="click here to watch this video on YouTube">
 <img src="https://sangkunine.github.io/medicalWorks/images/samples/quadWorkspace.jpg" width="98%" style="margin: 1px">
+</a>
 <img src="https://sangkunine.github.io/medicalWorks/images/samples/volumeRendering.jpg" width="50%" style="margin: 1px">
 <img src="https://sangkunine.github.io/medicalWorks/images/samples/slicesWorkspace.jpg" width="48%" style="margin: 1px">
 <img src="https://sangkunine.github.io/medicalWorks/images/samples/isosurface.jpg" width="50%" style="margin: 1px">
@@ -18,7 +20,7 @@ The figures below show the rendered images after loading the sample models.
 </div>
 
 ## Supported file formats
-DCM (DIC, DICOM, IMA, DCM without extension), NII, NRRD, MHD, MGH, MGZ
+**DCM (DIC, DICOM, IMA, DCM without extension), NII, NRRD, MHD, MGH, MGZ**
 
 ## Website
 You can run this application at the website: https://sangkunine.github.io/medicalWorks/.
@@ -59,12 +61,12 @@ You can control a camera to take a closer look at the loaded models by:<br>
 There are tabs for each model representation (e.g., slicer, volume, isosurface), and additional sketch tabs. In each model tab, you can change the properties of the model. For example, after hovering the mouse cursor over the property value you want to change, click and drag the mouse up / down (or right / left) to increase / decrease the corresponding value. In addition, you can change properties using the checkboxes or drop-down lists with options provided.
 
 ## Future works
-- Function to build various workspaces to improve user convenience
-- Function to design patient-specific guides
-- Function to export the 3D models for CAE analysis or 3D printing
-- Function to extract features from a large image dataset with deep learning
+- Function to build a simple & easy workspace tailored to specific tasks
+- Function to design & manufacture patient-specific surgical guides or implants
+- Function to export 3D models for CAE analysis or 3D printing
+- Function to extract features from medical image datasets with deep learning (e.g, 3D medical image segmentation)
 
 ## Question or suggestion
 Please contact us at <info@nova-graphix.com> for any question or suggestion.
 
-Thank you for reading the above description on **MedicalWorks**, developed by [NovaGraphix, Co.](https://www.nova-graphix.com/) Note that we will continue to add new features and technologies. Anyone can use it for free without any restrictions.
+Thank you for reading the above description on **MedicalWorks**, developed by [NovaGraphix, Co.](https://www.youtube.com/channel/UChK_R6Dc3ar2kFUdFB53g5w/videos) Note that we will continue to add new features and technologies. Anyone can use it for free without any restrictions.
