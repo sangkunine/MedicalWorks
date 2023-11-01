@@ -11,19 +11,19 @@
 The figures below show the rendered images after loading the sample models.
 <div style="text-align: center;">
 <a href="https://www.youtube.com/watch?v=VMqlCWnPZVg" title="click here to watch this video on YouTube">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/quadWorkspace.jpg" width="98%" style="margin: 1px">
+<img src="https://sangkunine.github.io/MedicalWorks/images/samples/quadWorkspace.jpg" width="98%" style="margin: 1px">
 </a>
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/volumeRendering.jpg" width="50%" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/slicesWorkspace.jpg" width="48%" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/isosurface.jpg" width="50%" style="margin: 1px">
-<img src="https://sangkunine.github.io/medicalWorks/images/samples/sketch.jpg" width="49%" style="margin: 1px">
+<img src="https://sangkunine.github.io/MedicalWorks/images/samples/volumeRendering.jpg" width="50%" style="margin: 1px">
+<img src="https://sangkunine.github.io/MedicalWorks/images/samples/slicesWorkspace.jpg" width="48%" style="margin: 1px">
+<img src="https://sangkunine.github.io/MedicalWorks/images/samples/isosurface.jpg" width="50%" style="margin: 1px">
+<img src="https://sangkunine.github.io/MedicalWorks/images/samples/sketch.jpg" width="49%" style="margin: 1px">
 </div>
 
 ## Supported file formats
 **DCM (DIC, DICOM, IMA, DCM without extension), NII, NRRD, MHD, MGH, MGZ**
 
 ## Website
-You can run this application at the website: https://sangkunine.github.io/medicalWorks/.
+You can run this application at the website: https://sangkunine.github.io/MedicalWorks/.
 
 ## Highlighted features
 - Workspaces: The following workspaces are currently provided for user-friendly GUI.<br>
